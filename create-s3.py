@@ -1,6 +1,6 @@
 import boto3
 
-client = boto3.client('s3',aws_access_key_id=,aws_secret_access_key=)
+client = boto3.client('s3',aws_access_key_id="key",aws_secret_access_key="key")
 
 def create_bucket(bucket_name):
         try:
