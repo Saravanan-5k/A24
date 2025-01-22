@@ -2,7 +2,7 @@ import boto3
 
 def list_unattached_volumes():
     
-    ec2 = boto3.client('ec2',aws_access_key_id='AKIAWV2OKSGTMOICQ36H',aws_secret_access_key='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')
+    ec2 = boto3.client('ec2',aws_access_key_id=,aws_secret_access_key=)
     
 
     response = ec2.describe_volumes(Filters=[{'Name': 'status', 'Values': ['available']}])

@@ -1,7 +1,7 @@
 import boto3
 
 def Iam_Users(a):
-   client = boto3.client('iam',aws_access_key_id='AKIAWV2OKSGTMOICQ36H',aws_secret_access_key='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')
+   client = boto3.client('iam',aws_access_key_id=,aws_secret_access_key=)
    response = client.list_users()
    #print(response)
    for i in response['Users']:

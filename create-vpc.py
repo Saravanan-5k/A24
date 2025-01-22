@@ -1,6 +1,6 @@
 import boto3
 
-client = boto3.client('ec2',aws_access_key_id='AKIAWV2OKSGTMOICQ36H',aws_secret_access_key='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')
+client = boto3.client('ec2',aws_access_key_id=,aws_secret_access_key=)
 vpc_create = client.create_vpc(
     CidrBlock='10.1.0.0/16',
   
