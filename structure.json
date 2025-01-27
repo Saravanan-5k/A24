@@ -1,0 +1,36 @@
+{
+    "AWSTemplateFormatVersion" : "2010-10-11",
+  
+    "Description" : "this is templates for json ",# optional
+  
+    "Metadata" : {
+      template metadata     # optional
+    },
+  
+    "Parameters" : {
+      set of parameters     # it like user provided inputs    # requried 
+    },
+    
+    "Rules" : {
+      set of rules          #optional
+    },
+  
+    "Mappings" : {
+      set of mappings   #key and pairs like instance type,region,ami id...
+    },
+  
+    "Conditions" : {
+      set of conditions  # conditional statement
+    },
+  
+    
+    },
+  
+    "Resources" : {
+      set of resources # requried 
+    },
+    
+    "Outputs" : {
+      set of outputs
+    }
+  }
