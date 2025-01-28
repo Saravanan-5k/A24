@@ -1,6 +1,10 @@
 import boto3
+import sys
 
-client = boto3.client('iam',aws_access_key_id=,aws_secret_access_key=)
+accesskey = sys.argv[1]
+secretkey = sys.argv[2]
+
+client = boto3.client('iam',aws_access_key_id=accesskey,aws_secret_access_key=secretkey)
 def create_user( ):
  try:   
   response = client.create_user(
